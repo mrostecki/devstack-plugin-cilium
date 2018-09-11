@@ -1,0 +1,30 @@
+#!/bin/bash
+
+function pre_install_cilium() {
+    # Install OS packages if necessary with "install_package ...".
+}
+
+function install_cilium() {
+    # Install the service.
+}
+
+function configure_cilium() {
+    # Configure the service.
+}
+
+function init_cilium() {
+    # Initialize and start the service.
+}
+
+function shutdown_cilium() {
+    # Shut the service down.
+}
+
+function cleanup_cilium() {
+    # Cleanup the service.
+}
+
+# Tell emacs to use shell-script-mode
+## Local variables:
+## mode: shell-script
+## End:
