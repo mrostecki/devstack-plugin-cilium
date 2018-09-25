@@ -144,11 +144,11 @@ spec:
             postStart:
               exec:
                 command:
-                  - "/cni-install.sh"
+                  - "/cni-kuryr-install.sh"
             preStop:
               exec:
                 command:
-                  - "/cni-uninstall.sh"
+                  - "/cni-kuryr-uninstall.sh"
           env:
             - name: "K8S_NODE_NAME"
               valueFrom:
